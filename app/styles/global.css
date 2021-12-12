@@ -4,6 +4,7 @@
  */
 
  /* Imports */
+ @import './variables.scss';
  @import '../components/title/index';
 
 :root {
@@ -127,7 +128,7 @@ input:where([type="search"]) {
 .remix-app__header-home-link {
   width: 106px;
   height: 30px;
-  color: var(--color-foreground);
+  color: $font-color-primary;
 }
 
 .remix-app__header-nav ul {
