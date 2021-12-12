@@ -8,3 +8,5 @@ public/build
 api/build
 
 storybook-static/
+
+coverage/
