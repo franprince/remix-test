@@ -27,7 +27,7 @@ describe("Personal Data component", () => {
     expect(jobTitle).toBeInTheDocument();
     expect(availability).toBeInTheDocument();
     expect(pictureAlt).toBeInTheDocument();
-    expect(pictureSrc).toHaveAttribute("src", mockProps.picture.src);
+    expect(pictureSrc).toHaveAttribute("src", mockProps.picture);
   });
 
   it("Should use default values", () => {
