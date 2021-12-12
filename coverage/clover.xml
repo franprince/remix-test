@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1639287466012" clover="3.2.0">
-  <project timestamp="1639287466012" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="5" coveredelements="5" complexity="0" loc="3" ncloc="3" packages="2" files="2" classes="2"/>
+<coverage generated="1639352737547" clover="3.2.0">
+  <project timestamp="1639352737547" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3" elements="20" coveredelements="20" complexity="0" loc="14" ncloc="14" packages="4" files="4" classes="4"/>
+    <package name="personalData">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/fran/dev/remix-test/app/components/personalData/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="personalData.src">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="PersonalData.tsx" path="/home/fran/dev/remix-test/app/components/personalData/src/PersonalData.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="title">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="/mnt/wsl/dev/test/app/components/title/index.ts">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/fran/dev/remix-test/app/components/title/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="title.src">
-      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="Title.tsx" path="/mnt/wsl/dev/test/app/components/title/src/Title.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="Title.tsx" path="/home/fran/dev/remix-test/app/components/title/src/Title.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
     </package>
   </project>
