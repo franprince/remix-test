@@ -3,10 +3,10 @@
  * quick baseline!
  */
 
- /* Imports */
- 
- @import '../components/title/index';
- @import '../components/personalData/index';
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap");
+@import "../components/title/index";
+@import "../components/personalData/index";
 
 :root {
   --color-foreground: hsl(0, 0%, 7%);
