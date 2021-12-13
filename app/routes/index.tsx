@@ -1,6 +1,6 @@
 import type { MetaFunction, LoaderFunction } from "remix";
 import { useLoaderData, json, Link } from "remix";
-import { Title } from "../components/";
+import { Title } from "../../components";
 
 type IndexData = {
   resources: Array<{ name: string; url: string }>;
