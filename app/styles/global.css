@@ -4,8 +4,9 @@
  */
 
  /* Imports */
- @import './variables.scss';
+ 
  @import '../components/title/index';
+ @import '../components/personalData/index';
 
 :root {
   --color-foreground: hsl(0, 0%, 7%);
