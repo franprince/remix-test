@@ -6,13 +6,17 @@
   }
   &__job-title {
     font-weight: 300;
+    margin-bottom: 1rem;
   }
   &__name {
     font-size: 3rem;
     font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1;
   }
   &__profile-picture {
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 9999px;
   }
   &__location {
@@ -21,6 +25,7 @@
       align-items: center;
       background-color: rgb(221, 221, 221);
       width: fit-content;
+      margin-top: 1.5rem;
     }
     &__icon {
       fill: rgb(18, 95, 236);
@@ -37,6 +42,16 @@
         margin: 0;
         padding: 0.25rem 0.75rem;
       }
+    }
+  }
+  &__availability {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    p {
+      margin: 0;
     }
   }
 }

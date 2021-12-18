@@ -45,7 +45,9 @@ const PersonalData = (props: PersonalDataProps) => {
         </div>
 
       </div>
-      <p className={classes("availability")}>{availability}</p>
+      <div className={classes("availability")}>
+        <p>{availability}</p>
+      </div>
     </div>
   );
 };
