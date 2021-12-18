@@ -19,5 +19,5 @@ Primary.args = {
   name: "Francisco Prince",
   location: "La Plata, Bs. As., Argentina",
   jobTitle: "Frontend developer",
-  availability: "No disponible",
+  availability: "Disponible para reubicación",
 };
