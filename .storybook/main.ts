@@ -7,7 +7,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-postcss",
   ],
-  webpackFinal: async (config) => {
+  webpackFinal: async (config: any) => {
     config.module.rules.push({
       test: /\.scss$/,
       use: ["style-loader", "css-loader", "sass-loader"],
