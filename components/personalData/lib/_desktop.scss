@@ -1,5 +1,42 @@
-.personal-data{
-    &__title{
-        color: red;
+.personal-data {
+  &__container {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgba(221, 221, 221, 1);
+    max-width: 313px;
+  }
+  &__job-title {
+    font-weight: 300;
+  }
+  &__name {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  &__profile-picture {
+    max-width: 200px;
+    border-radius: 9999px;
+  }
+  &__location {
+    &__container {
+      display: flex;
+      align-items: center;
+      background-color: rgb(221, 221, 221);
+      width: fit-content;
     }
+    &__icon {
+      fill: rgb(18, 95, 236);
+      width: 1rem;
+      padding: 0 0.75rem;
+      border-right: 2px solid black;
+    }
+    &__text {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 700;
+      color: rgb(34, 40, 49);
+      p {
+        margin: 0;
+        padding: 0.25rem 0.75rem;
+      }
+    }
+  }
 }

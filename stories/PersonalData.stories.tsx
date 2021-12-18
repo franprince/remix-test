@@ -17,7 +17,7 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   name: "Francisco Prince",
-  location: "La Plata",
+  location: "La Plata, Bs. As., Argentina",
   jobTitle: "Frontend developer",
   availability: "No disponible",
 };
