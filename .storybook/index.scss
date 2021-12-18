@@ -1,2 +1,7 @@
-@import '../components/personalData/index.scss';
-@import '../components/title/index.scss';
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300;700;900&display=swap");
+@import "../components/personalData/index.scss";
+@import "../components/title/index.scss";
+
+body {
+  background-color: rgba(34, 40, 49, 1);
+}
