@@ -17,5 +17,5 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   text: "Encontrame en:",
-  socialNetworks: [{ name: "linkedin", url: "https://www.linkedin.com" }, { name: "github", url: "https://www.github.com" }]
+  socialNetworks: [{ name: "linkedin", url: "https://www.linkedin.com" }, { name: "github", url: "https://www.github.com" }, { name: "twitter", url: "https://www.twitter.com" }]
 };
