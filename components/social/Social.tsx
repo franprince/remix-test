@@ -1,4 +1,3 @@
-import React from "react";
 import classnames from "classnames";
 import Icon from "../icon/Icon";
 
@@ -6,7 +5,6 @@ interface SocialProps {
   socialNetworks: { name: "twitter" | "linkedin" | "github"; url: string }[];
   text: string;
   className: string;
-  variable: string;
 }
 
 const Social = (props: SocialProps) => {

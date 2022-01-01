@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Twitter = () => {
   return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="social__icon__vector">
     <title>Twitter</title>
