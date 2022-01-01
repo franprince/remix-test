@@ -17,6 +17,6 @@ const Template: ComponentStory<typeof Title> = (args) => <Title {...args} />;
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  title: "Hola",
+  title: "Hello",
 };
 
