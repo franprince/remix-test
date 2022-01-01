@@ -6,6 +6,7 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-links",
     "@storybook/addon-postcss",
+    "@storybook/addon-a11y",
   ],
   webpackFinal: async (config: any) => {
     config.module.rules.push({
