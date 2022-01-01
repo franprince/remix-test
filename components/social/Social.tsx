@@ -1,4 +1,3 @@
-import React from "react";
 import classnames from "classnames";
 import Icon from "../icon/Icon";
 
@@ -17,19 +16,12 @@ const Social = (props: SocialProps) => {
       <h4 className={classes("text")}>{text}</h4>
       <div className={classes("icons")}>
         {socialNetworks.map((platform, index) => (
-          <div
-            className={
-              classes("icon") +
-              " " +
-              classes(`icon--${isEven(index) ? "light" : "dark"}`)
-            }
-          >
-            <Icon
-              name={platform.name}
-              url={platform.url}
-              className={classes(`icon--${platform.name}`)}
-            />
-          </div>
+          <Icon
+            name={platform.name}
+            url={platform.url}
+            className="social"
+            variable={isEven(index) ? "light" : "dark"}
+          />
         ))}
       </div>
     </div>
