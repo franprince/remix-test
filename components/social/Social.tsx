@@ -20,7 +20,7 @@ const Social = (props: SocialProps) => {
             name={platform.name}
             url={platform.url}
             className="social"
-            variable={isEven(index) ? "light" : "dark"}
+            variable={isEven(index) ? "dark" : "light"}
           />
         ))}
       </div>
