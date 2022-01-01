@@ -1,6 +1,5 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
-import { PersonalData } from "..";
+import PersonalData from "../PersonalData";
 
 const mockProps = {
   name: "Francisco Prince",
