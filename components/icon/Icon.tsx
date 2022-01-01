@@ -7,7 +7,7 @@ interface IconProps {
   name: "twitter" | "linkedin" | "github";
   url: string;
   className?: string;
-  variable: "dark" | "light";
+  variable?: "dark" | "light";
 }
 
 const iconList = {
