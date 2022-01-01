@@ -1,0 +1,31 @@
+.icons {
+    &__icon {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 9999px;
+        margin-left: -0.75rem;
+        &--dark {
+            background-color: rgba(40, 47, 58, 1);
+            svg {
+                fill: rgba(221, 221, 221, 1);
+            }
+        }
+        &--light {
+            background-color: rgba(221, 221, 221, 1);
+            svg {
+                fill: rgba(40, 47, 58, 1);
+            }
+        }
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        a {
+            width: 3rem;
+            height: 3rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

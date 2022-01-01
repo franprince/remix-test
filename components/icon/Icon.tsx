@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import React from "react";
 import Github from "./icons/Github";
 import LinkedIn from "./icons/LinkedIn";
 import Twitter from "./icons/Twitter";
@@ -7,7 +6,8 @@ import Twitter from "./icons/Twitter";
 interface IconProps {
   name: "twitter" | "linkedin" | "github";
   url: string;
-  className: string;
+  className?: string;
+  variable: "dark" | "light";
 }
 
 const iconList = {
@@ -16,12 +16,20 @@ const iconList = {
   linkedin: <LinkedIn />,
 };
 
-const Icon = ({ name, url, className }: IconProps) => {
-  const classes = (element: string) => classNames(`${className}__${element}`);
+const Icon = ({ name, url, variable = "light", className = 'icons' }: IconProps) => {
+  const classes = (block: string, element: string, modifier?: string) => classNames(`${block}__${element}${modifier ? `--${modifier}` : ""}`);
   return (
-    <a aria-label={name} href={url} className={className}>
-      {iconList[name]}
-    </a>
+    <div
+      className={
+        classes(className, "icon") +
+        " " +
+        classes(className, "icon", variable)
+      }
+    >
+      <a aria-label={name} href={url}>
+        {iconList[name]}
+      </a>
+    </div>
   );
 };
 
