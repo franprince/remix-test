@@ -18,7 +18,7 @@ const PersonalData = (props: PersonalDataProps) => {
     availability,
     picture = {
       alt: "profile picture",
-      src: "https://franprince.dev/img/445f96b7-600.webp",
+      src: "https://dummyimage.com/300x300/000/ffffff.png&text=Profile+picture",
     },
   } = props;
 
