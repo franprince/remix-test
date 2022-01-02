@@ -37,7 +37,7 @@ describe("Personal Data component", () => {
     expect(pictureAlt).toBeInTheDocument();
     expect(pictureSrc).toHaveAttribute(
       "src",
-      "https://franprince.dev/img/445f96b7-600.webp"
+      "https://dummyimage.com/300x300/000/ffffff.png&text=Profile+picture"
     );
   });
 });
