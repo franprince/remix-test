@@ -6,11 +6,6 @@ export default {
     title: "Components/Icon",
     component: Icon,
     // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-    parameters: [
-        "name",
-        "variable"
-    ]
-
 } as ComponentMeta<typeof Icon>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
